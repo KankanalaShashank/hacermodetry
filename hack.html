@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>Puzzle</Title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <div class="mainheading">
+        <h>TILE PUZZLE</h>
+    </div>
+
+
+
+
+    <ul class="descriptionstyle">
+        <li>A 3X3 Grid will be given first.
+        </li>
+        <li> A 5X5 Grid will be given with an empty tile,by moving the empty tile make the
+            3X3 grid given above in the center of 5X5.</li>
+        <li>Press start the game button to play the game.</li>
+    </ul>
+    <label for="userdetails">USERNAME : </label>
+    <input type="text" id="userdetails">
+    <br />
+    <br />
+    <button id="startgame" onclick="startagain()" class="buttonstyles">START THE GAME</button>
+    <div id="reloadcontainer"> </div>
+    <div style="text-align:center;">
+
+        <p class="parastyles" id="countertime"> </p>
+
+        <p id="numbermoves" class="playgridcount"></p>
+
+        <div id="startplaygame">
+            <div id="grid">
+
+                <button class="backgrounddecoration" id="tile1"></button>
+                <button class="backgrounddecoration" id="tile2"></button>
+                <button class="backgrounddecoration" id="tile3"></button>
+                <br />
+                <button class="backgrounddecoration" id="tile4"></button>
+                <button class="backgrounddecoration" id="tile5"></button>
+                <button class="backgrounddecoration" id="tile6"></button>
+                <br />
+                <button class="backgrounddecoration" id="tile7"></button>
+                <button class="backgrounddecoration" id="tile8"></button>
+                <button class="backgrounddecoration" id="tile9"></button>
+                <br />
+            </div>
+            <br />
+            <p id="answer" class="playgridcount"></p>
+            <div id="playgrid">
+                <div style="text-align:center:">
+                    <button class="backgrounddecoration" id="Tile1"></button>
+                    <button class="backgrounddecoration" id="Tile2"></button>
+                    <button class="backgrounddecoration" id="Tile3"></button>
+                    <button class="backgrounddecoration" id="Tile4"></button>
+                    <button class="backgrounddecoration" id="Tile5"></button>
+                </div>
+                <div style="text-align:center:">
+                    <button class="backgrounddecoration" id="Tile6"></button>
+                    <button class="backgrounddecoration" id="Tile7"></button>
+                    <button class="backgrounddecoration" id="Tile8"></button>
+                    <button class="backgrounddecoration" id="Tile9"></button>
+                    <button class="backgrounddecoration" id="Tile10"></button>
+                </div>
+                <div style="text-align:center:">
+                    <button class="backgrounddecoration" id="Tile11"></button>
+                    <button class="backgrounddecoration" id="Tile12"></button>
+                    <button class="backgrounddecoration" id="Tile13"></button>
+                    <button class="backgrounddecoration" id="Tile14"></button>
+                    <button class="backgrounddecoration" id="Tile15"></button>
+                </div>
+                <div style="text-align:center:">
+                    <button class="backgrounddecoration" id="Tile16"></button>
+                    <button class="backgrounddecoration" id="Tile17"></button>
+                    <button class="backgrounddecoration" id="Tile18"></button>
+                    <button class="backgrounddecoration" id="Tile19"></button>
+                    <button class="backgrounddecoration" id="Tile20"></button>
+                </div>
+                <div style="text-align:center:">
+                    <button class="backgrounddecoration" id="Tile21"></button>
+                    <button class="backgrounddecoration" id="Tile22"></button>
+                    <button class="backgrounddecoration" id="Tile23"></button>
+                    <button class="backgrounddecoration" id="Tile24"></button>
+                    <button class="backgrounddecoration" id="Tile25" style="background-color:white"></button>
+                </div>
+                <br />
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div id="scoredisplay"> </div>
+    <script src="tilemoves.js"></script>
+
+
+</body>
+
+</html>
